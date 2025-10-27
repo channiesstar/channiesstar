@@ -1,0 +1,121 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'cute';
+    src: url(Fonts/CuteFont-Regular.otf);
+}
+
+@font-face {
+    font-family: 'play';
+    src: url(Fonts/PlaywriteDEGrund-VariableFont_wght.ttf);
+}
+
+.header {
+    font-family: 'cute', sans-serif;
+    color: white;
+}
+
+.title {
+    font-size: 4rem;
+    font-family: 'cute', sans-serif;
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 10rem;
+}
+
+nav {
+    background-image: url(Images/Header.webp);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3.125rem;
+    height: 10rem;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav .right {
+    display: flex;
+    gap: 5px;
+}
+
+nav .right a {
+    font-family: 'cute';
+    color: white;
+    margin: 0 0.625rem;
+}
+
+section h2 {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 1rem;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+#general {
+    background-color: #ae967f;
+    padding: 12rem 2rem;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+}
+
+#general .pfp {
+    width: 20rem;
+    height: 20rem;
+    overflow: hidden;
+    margin-top: 1rem;
+    margin-bottom: 37px;
+    border-radius: 50%;
+}
+
+#general .pfp img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+
+p {
+    font-family: 'fun';
+    color: white;
+    font-size: 1.5rem;
+}
+
+footer {
+    background-color: #96887c;
+    height: 5rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+}
+
+.instagram {
+    color:white;
+    text-decoration: underline;
+    font-weight: bold;
+}
