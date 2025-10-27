@@ -125,3 +125,57 @@ footer {
     color: white;
     font-size: 1.5rem;
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 992px) {
+
+    nav .right a {
+        font-size: 1rem;
+        margin: 0 0.5rem;
+    }
+    
+    #general .pfp {
+    width: 18rem;
+    height: 18rem;
+}
+}
+
+@media (max-width: 768px) {
+    nav .right a {
+        font-size: 1.1rem;
+        margin: 0 0.375rem;
+    }
+
+    #general .pfp {
+        width: 16rem;
+        height: 16rem;
+    }
+}
+
+@media (max-width: 576px) {
+    nav {
+        padding: 0 1rem;
+    }
+
+    nav .right a {
+        font-size: 0.8rem;
+        margin: 0 0.25rem;
+    }
+
+    #general .pfp {
+        width: 12rem;
+        height: 12rem;
+    }
+
+    section h2 {
+        font-size: 2.4rem;
+    }
+
+    #general {
+        padding: 6rem 1rem;
+    }
+}
